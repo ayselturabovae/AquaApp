@@ -1,0 +1,34 @@
+# ===== GITIGNORE — ЧТО НЕ ПОПАДАЕТ В РЕПОЗИТОРИЙ =====
+# СКРИНШОТ: Этот файл в репозитории (пункт 4 "Секреты подписи" и пункт 13 "Задание В")
+# В отчёте: "Рисунок N — Файл .gitignore"
+
+# Keystore и пароли (НИКОГДА не коммитьте!)
+keystore.jks
+keystore.properties
+*.jks
+*.keystore
+
+# Локальные настройки SDK/NDK
+local.properties
+
+# Gradle кэш и билды
+.gradle/
+build/
+app/build/
+*.iml
+.idea/
+*.log
+
+# macOS
+.DS_Store
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Bundle
+Gemfile.lock
+.bundle/
+vendor/bundle/
